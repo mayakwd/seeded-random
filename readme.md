@@ -1,5 +1,5 @@
 # Seeded Pseudo-Random AS3 Implementation
----
+
 ## Notice:
 It is **not** Mersenne Twister pseudo-random number generator.
 
@@ -13,11 +13,11 @@ const random : SeededRandom = new SeededRandom(getTimer())
 
 Methods:
 
- - *nextInt() : int* [0..int.MAX_VALUE]
- - *nextBoolean() : Boolean*
- - *nextNumber(): Number* [0..1]
- - *nextIntWithin(from: int, to: int) : int* [from..to]
- - *intByChance(values:Vector.<int>, chances:Vector.<int>) : int* - returns random value from values-list based on chances
+ - `nextInt() : int` [0..int.MAX_VALUE]
+ - `nextBoolean() : Boolean`
+ - `nextNumber(): Number` [0..1]
+ - `nextIntWithin(from: int, to: int) : int` [from..to]
+ - `intByChance(values:Vector.<int>, chances:Vector.<int>) : int` - returns random value from values-list based on chances
 
 Example:
 
